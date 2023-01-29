@@ -28,6 +28,14 @@ body{
     width: 20rem;
     height: 20rem;
 }
+.board .cover{
+    background-color: rgba(128, 128, 128, 0);
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    border: none;
+    display: none;
+}
 .board div{
     border: 2px solid rgb(221, 218, 218);
     display: flex;
@@ -37,5 +45,11 @@ body{
     font-size: 3rem;
 }
 .playAgain{
-    display: none;
+    background-color: white;
+    border: 4px solid black;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 2rem;
 }
